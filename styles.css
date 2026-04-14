@@ -179,11 +179,11 @@ nav {
 }
 
 /* IMPROVING MY OWN PICTURE */
-transform: scale(1.5);
-padding-top: 8px;
 
 .about-me__info--title {
-    margin-bottom: 16px;
+    margin-bottom: 16px
+    transform: scale(1.5);
+    padding-top: 8px;;
     animation: fade-up 650ms 400ms backwards;
 }
 
@@ -199,9 +199,8 @@ padding-top: 8px;
     padding: 0 16px;
 }
 
-.about-me__limks {
+.about-me__links {
     animation: fade-up 650ms 400ms backwards;
-
 }
 
 @keyframes fade-up {
